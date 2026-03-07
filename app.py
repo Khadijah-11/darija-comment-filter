@@ -308,9 +308,4 @@ else:
         for item in filtered:
             render_card(item)
 
-# ── Footer ────────────────────────────────────────────────────────────
-st.markdown("""
-<div style="margin-top:48px;padding-top:16px;border-top:1px solid #21262d;font-size:11px;color:#484f58;text-align:center">
-  Classifier: Char TF-IDF + LinearSVC + Hybrid Rules &nbsp;·&nbsp; 96.1% accuracy &nbsp;·&nbsp; κ = 0.94
-  &nbsp;&nbsp;|&nbsp;&nbsp; Translation: NLLB-200 (Meta AI) &nbsp;·&nbsp; BLEU 0.59
-</div>""", unsafe_allow_html=True)
+
